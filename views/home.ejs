@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traditional Games Website</title>
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  </head>
+  <body>
+
+    <!-- Section Main Screen -->
+    <section class="game-intro">
+      <div class="background-img">  
+        <nav class="navigation" style="height: 50 px;"> 
+          <div class="container" style="display: flex;">
+            
+            <!-- Font Header -->
+            <!-- kotak satu -->
+            <p class="logointro-nav"> [Gu Ba Ke] </p>
+
+            <!-- kotak dua -->
+            <div style="flex-grow: 3;">
+              <div>
+                <a href="" class="intro-nav"><U>LIVE STREAM</U></a>   
+                <a href="" class="intro-nav"><U>TOP SCORE</U></a>
+                <a href="" class="intro-nav"><U>CONTACT US</U></a>   
+              </div>
+            </div>
+
+            <!-- kotak tiga -->
+            <div>
+                <div>
+                  <a href="/login">
+                    <button class="button-login">
+                        LOGIN / REGISTER
+                    </button>
+                  </a>
+                </div>
+            </div>          
+          </div>
+        </nav>
+
+        <!-- Main Font Intro -->
+        <div>
+            <div class="container">
+                <div class="intro-hero d-flex flex-column justify-content-center align-items-center">    
+                    
+                    <h1 class="h1-main-screen">
+                      Play Traditional Game
+                    </h1>
+                    <h3 class="h3-main-screen">
+                      [Gunting - Batu - Kertas] @Copyright Tito Valiant Muhammad 2021
+                    </h3>
+                    <h3 class="h3-main-screen">
+                      <i>The Famous 90's GAME in the WORLD!!</i>
+                    </h3>
+                      <a href="/login">
+                    <button class="button-intro">
+                       <i>PLAY NOW</i>
+                    </button>
+                    </a>
+                    <!-- animasi intro -->
+                    <div class="wrapper">
+                        <p class="text-white font-weight-bold">The Story</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill=white class="bi bi-caret-down" viewBox="0 0 16 16">
+                         <path d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>      
+    </section>
+    <!-- End Section Main Screen -->
+
+    <!-- Section Game Choice 1-->
+    <section class="GameChoice">
+    <!-- Bagi 2 Konten   -->
+
+    <div class="container" style="padding-top: 200px">
+        <div class="row">
+            <!-- tulisan -->
+            <div class="col-md-4">
+                <h4 class="text-white">What's So Special?</h4>
+                <h1 class="h1-GameChoice">The Games</h1>
+            </div>
+
+            <div class="col-md-8">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style='margin-top: 40px;'>
+                    
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1" style="margin-left:5em"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2" style="margin-left:5em"></li>
+                    </ol>
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="./css/rockpaperstrategy-1600.jpg" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./cssgame/gubake.jpg"alt="Second slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./cssgame/gubake2.jpg" alt="Third slide">
+                      </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-caret-left" viewBox="0 0 16 16" style="margin-right:5em">
+                      <path d="M10 12.796V3.204L4.519 8 10 12.796zm-.659.753-5.48-4.796a1 1 0 0 1 0-1.506l5.48-4.796A1 1 0 0 1 11 3.204v9.592a1 1 0 0 1-1.659.753z"/>
+                      </svg>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16" style="margin-left:5em">
+                      <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+                      </svg>
+                    </a>
+                  </div>
+            </div>
+        </div> 
+    </div>
+    </section>
+  <!-- End Section Game Choice1-->
+
+  <!-- Section Game Choice2 -->
+    <section class="GameChoice2">
+      <div class="container" style="padding-top: 200px">
+        <div class="row">
+            
+            <!-- tulisan -->
+            <div class="col-sm-20" style='padding-left: 650px'>
+                
+                <h3 class="text-white">What's So Special?</h3>
+                <h1 class="h1-GameChoice">features</h1>
+                
+                <div class="col-md-10 col-20">
+
+                  <div class="d-inline-block" style="border-left: 3px solid white; min-height: 50px; width: 100%;">
+                        <div class="d-inline-block" style="position:absolute; left:6px; height: 20px; width: 20px; border-radius: 50%; background-color: white;"></div>
+                        
+                          
+                        <h3 class="h3-GameChoice2">Traditional Games</h3>
+                        <h5 class="h5-GameChoice2">
+                            If you miss your childhood, we provide many traditional games here
+                        </h5>
+                        </div>
+
+                    <div class="d-inline-block" style="min-height: 50px; width: 80%;">
+                        <div class="d-inline-block" style="position:absolute; left: 6px; height: 20px; width: 20px; border-radius: 50%; border: 1px solid white;"></div>
+                        <h3 class="h3-GameChoice2">game suit</h3>
+                        </div>
+
+                    <div class="d-inline-block" style="min-height: 70px; width: 80%; margin-top: 30px;">
+                       <div class="d-inline-block" style="position:absolute; left: 6px; height: 20px; width: 20px; border-radius: 50%; border: 1px solid white;"></div>
+                        <h3 class="h3-GameChoice2">tbd</h3>
+                    </div>
+                
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+  <!-- End Section Game Choice2-->
+
+  <!-- Section Game Requirement-->
+    <section class="GameRequirement">
+      <div class="navigation2" style="height: 1200px;">
+
+        <div class="container2">
+
+          <div class="row">
+            <!-- kotak 1 -->
+            
+              <div class="flex-container">
+                <table>
+                  <div class="tab1">
+                    <h1 class="h1-GameRequirement">system requirements</h1>
+                  </div>
+                </table>
+
+                <table>
+                  <h5 class="h5-GameRequirement">
+                  Can My Computer Run this game?
+                  </h5>
+                </table>
+
+            </div>
+
+            <!-- kotak table -->
+            <div class="flex-container">
+                <!-- <div class="col-md-10">   -->
+                <table>
+                  <th class="th-GameRequirement">OS:
+                    <div class="p-GameRequirement">
+                      <p>Windows 7 64-bit only</p>
+                      <p>(No OSX support at this time)</p>
+                    </div>
+                  </th>
+                </table>
+
+                <table>
+                  <th class="th-GameRequirement">PROCESSOR:
+                    <div class="p-GameRequirement">
+                      <p>Intel Core 2 Duo @ 2.4 GHZ or</p>
+                      <!-- <p>AMD Athlon X2 @ 2.8 GHZ</p> -->
+                    </div>
+                  </th>
+                </table>
+            </div>
+            <div class="flex-container">
+                <table>
+                  <th class="th-GameRequirement">mEMORY:
+                    <div class="p-GameRequirement">
+                      <p>4 GB RAM</p>
+                    </div>
+                  </th>
+                </table>
+
+                <table>
+                  <th class="th-GameRequirement">storage:
+                    <div class="p-GameRequirement">
+                      <p>8 GB available space</p>
+                    </div>
+                  </th>
+                </table>
+            </div>
+            <div class="flex-container">
+                <table class="table2">
+                  <th class="th-GameRequirement">GRAPHICS:
+                    <div class="p-GameRequirement">
+                      <p>NVIDIA GeForce GTX 660 2GB or</p>
+                      <p>AMD Radeon HB 7850 2GB DirectX11 (Shader Model 5)</p>
+                    </div>
+                  </th>
+                </table>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </section>
+    <!-- End Section Game Requirement-->
+
+    <!-- Section Top Scores-->
+    <section class="TopScores" style="display: flex;">
+
+          <!-- <div class="row"> -->
+            <!-- kotak 1 -->
+            
+              <div class="flex-container">
+                <table>
+                  <div class="tab2">
+                    <h1 class="h1-TopScores">TOP SCORES</h1>
+                    <h4 class="h4-TopScores">
+                      This top scores from various games provided on this platform
+                    </h4>
+                    
+                    <button class="button-TopScores">
+                        see more
+                    </button> 
+
+                    <h4 class="h4-TopScores">@Copyright Tito Valiant 2021</h4>
+                  </div>
+                </table>
+              </div>
+
+              <div class="col-5">
+                <div style="padding: 200px 0;">
+                  <div class="tab3">
+                      <h3 style="color: orange; display: flex; margin-left: -50px;"> 
+                        <div style="border-radius: 50px; height: 40px; width: 40px; background-color: orange; margin-right: 20px;">
+                        </div>
+                        <div>
+                          Evan Lahti
+                         <p style="color: lightgray; font-size: 12px; margin-top: 10px;">PC Gamer</p>
+                       </div>
+                        <img src="./css/twitter.svg" style="margin-left: auto;"></img>
+                      </h3>
+                     
+                      <p style="color: white; margin-left: -50px;">
+                        "One of my gaming highlights of the year."</p>
+                      <small style="color: lightgray; margin-left: -50px;">
+                        June 18, 2021</small>
+                  </div>
+
+                  <div class="tab3" style="margin-left: -100px; margin-top: 30px; margin-bottom: 30px;">
+                    <h3 style="color: orange; display: flex; margin-left: -50px;"> 
+                        <div style="border-radius: 50px; height: 40px; width: 40px; background-color: orange; margin-right: 20px;">
+                        </div>
+                        <div>
+                          Jada Griffin
+                          <p style="color: lightgray; font-size: 12px; margin-top: 10px;">Nerdreactor</p>
+                        </div>
+                        <img src="./css/twitter.svg" style="margin-left: auto;"></img>
+                    </h3>
+
+                      <p style="color: white; margin-left: -50px;">
+                        "The next big thing in the world of streaming and survival games."</p>
+                      <small style="color: lightgray; margin-left: -50px;">
+                        Jul 10, 2021</small>
+                  </div>
+
+
+                  <div class="tab3">
+                    <h3 style="color: orange; display: flex; margin-left: -50px;"> 
+                        <div style="border-radius: 50px; height: 40px; width: 40px; background-color: orange; margin-right: 20px;">
+                        </div>
+                        <div>
+                          Aaron Williams
+                          <p style="color: lightgray; font-size: 12px; margin-top: 10px;">
+                          Uproxx
+                          </p>
+                        </div>
+                        <img src="./css/twitter.svg" style="margin-left: auto;"></img>
+                    </h3>
+
+                      <p style="color: white; margin-left: -50px;">
+                       "Snoop Dogg Playing The Wildly Entertaining 'SOS' is Ridiculous."</p>
+                      <small style="color: lightgray; margin-left: -50px;">
+                        December 24, 2018</small>
+                  </div>
+                </div>
+              </div>
+      
+    </section>  
+  </body>
+
+  <!-- script -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>

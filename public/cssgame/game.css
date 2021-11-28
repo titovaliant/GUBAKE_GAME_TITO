@@ -1,0 +1,211 @@
+.background-img {
+    position: absolute;
+    width: 1440px;
+    height: 1224px;
+    left: 0px;
+    top: 0px;
+
+    background: #9C835F;
+}
+
+/*header*/
+.h1-main-screen {
+    position: absolute;
+    width: 510px;
+    height: 62px;
+    left: 180px;
+    top: 15px;
+
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+
+    color: #F9B23D;
+}
+
+.button1 {
+    position: absolute;
+    width: 55px;
+    height: 87px;
+    left: 37px;
+    top: 12px;
+
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    color: #724C21;
+}
+
+.button2 {
+
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 98px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    color: #724C21;
+}
+
+.logo1-header {
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: 119px;
+    top: 27px;
+}
+
+.player1_text {
+    /*position: absolute;*/
+    width: 299px;
+    height: 94px;
+    left: 296px;
+    top: 162px;
+
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.player1_batu {
+    /*position: absolute;*/
+    width: 128px;
+    height: 92px;
+    left: 382px;
+    top: 267px;
+}
+
+.player1_kertas {
+    /*position: absolute;*/
+    width: 115px;
+    height: 150px;
+    left: 388px;
+    top: 440px;
+    margin-top: 80px;
+}
+
+.player1_gunting {
+    /*position: absolute;*/
+    width: 134px;
+    height: 160px;
+    left: 369px;
+    top: 671px;
+    margin-top: 80px;
+}
+
+.com_text {
+    /*position: absolute;*/
+    width: 299px;
+    height: 94px;
+    left: 865px;
+    top: 162px;
+
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.com_batu {
+    /*position: absolute;*/
+    width: 128px;
+    height: 92px;
+    left: 951px;
+    top: 267px;
+}
+
+.com_kertas {
+    /*position: absolute;*/
+    width: 115px;
+    height: 150px;
+    left: 970px;
+    top: 440px;
+    margin-top: 80px;
+}
+
+.com_gunting {
+    /*position: absolute;*/
+    width: 134px;
+    height: 160px;
+    left: 951px;
+    top: 671px;
+    margin-top: 80px;
+}
+
+.vs_text {
+    /*position: absolute;*/
+    width: 296px;
+    height: 186px;
+    left: 589px;
+    top: 419px;
+
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 144px;
+    line-height: 196px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #BD0000;
+}
+
+.refresh {
+    width: 77px;
+    height: 71px;
+    left: 704px;
+    top: 862px;
+}
+
+.kotak:hover {
+    background: #C4C4C4;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.kotak_hijau {
+    width: 271.11px;
+    height: 166.93px;
+    left: 561px;
+    top: 489.89px;
+
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: white;
+
+    background: #4C9654;
+    border-radius: 10px;
+    transform: rotate(-28.87deg);
+}

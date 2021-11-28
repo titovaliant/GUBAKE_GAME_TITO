@@ -1,0 +1,60 @@
+<!-- views/register.ejs -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>REGISTER ID</title>
+        <style>
+            .contents{
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                border: 1px solid black;
+                border-width:2px;
+                padding : 15px;
+            }
+            .form-element{
+                margin: 10px;
+                align-items: left;
+            }
+        </style>
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body>
+        
+        <div class="contents">
+            <div class="background-imgs"> 
+            <h3 align="center">REGISTER [GU BA KE]</h3>
+            <h4 align="center">Buat Akun Baru</h4>
+            
+            <div class="formContent">
+                <form method="POST" action="/register">
+                    <div class="form-element">
+                        <label for="username">Register Username</label>
+                            <br>
+                            <input type="text" name="username" placeholder="Insert your username">
+                            <br>
+                    </div>
+                    <div class="form-element">
+                        <label for="password">Register Password</label>
+                            <br>
+                            <input type="password" name="password" placeholder="Insert your password">
+                            <br>
+                    </div>
+                    <div class="form-element">
+                        <button type="submit">Register</button>
+                    </div>
+                </form>
+            </div>
+            <h5 align="center">Sudah punya akun?<a href="/login" class="font-medium text-blue-600 hover:text-blue-800">
+                Silahkan LOGIN disini</a></h5>
+            
+            <h5 align="center" class="mt-6 text-2xl font-bold text-gray-800">Copyright @Tito Valiant Muhammad 2021</h5>
+            <h5 align="center"><a href="/" class="font-medium text-blue-600 hover:text-blue-800">
+                Back to Home Page</a></h5>
+        </div>
+        </div>
+        
+    </body>
+</html>

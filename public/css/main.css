@@ -1,0 +1,310 @@
+.background-img {
+    background-image: url('main-bg.jpg'); 
+    height: 100%;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.background-imgs {
+    background-image: url('hai.jpg'); 
+    height: 100%;
+    background-size: cover;
+    background-position: bottom;
+}
+
+/*header*/
+.logointro-nav {
+    flex-grow: 2;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;   
+}
+
+.intro-nav {
+    color: orange;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 45px;
+    margin-right: 15px;
+}
+
+.button-login{
+    background-color:orange;
+    color:black;
+    border:0;
+    font-weight: bold;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin:auto;
+    display:block;
+    font-size: 20px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+
+.game-intro {
+    height: 1500px;
+    background-size: cover;
+    background-position: center;
+    background: #08090B;
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+.container2 {
+    padding-top: 80px;
+    padding-bottom: 25px;
+    margin-left: 100px;
+}
+
+.navigation {
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+/*Main-Screen*/
+.h1-main-screen {
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    font-size: 75px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+}
+
+.h3-main-screen {
+    color: whitesmoke;
+    font-weight: bold;
+    margin-bottom: 35px;
+    font-size: 35px;
+}
+
+.button-intro{
+    background-color:orange;
+    color:black;
+    border:0;
+    font-weight: bold;
+    padding-left:95px;
+    padding-right:95px;
+    padding-top:20px;
+    padding-bottom:10px;
+    font-size: 25px;
+    margin:auto;
+    display:block;
+    border-radius: 44px;
+    text-transform: uppercase;
+}
+
+/* Animation */
+
+.wrapper {
+    text-align: center;
+    height: 100px;
+    margin-top: 70px;
+    position: relative;
+    animation-name: down-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    text-transform: uppercase;
+    
+  }
+
+  @keyframes down-animation { 
+    /* keadaan awal */
+    0%   { left:0px; top:60px;} 
+    /* keaddan pertengahan */
+    50%  {left:0px; top:90px;}
+    /* keaddan semula */
+    100% { left:0px; top:60px;}
+  }
+
+/*Game Choice 1*/
+.GameChoice { 
+    background-image: url('the-games-bg.jpg');
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.h1-GameChoice {
+    color: #fff;
+    letter-spacing: 5px;
+    font-size: 50px;
+    margin-bottom: 70px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+}
+
+/*Game Choice 2*/
+.GameChoice2 { 
+    background-image: url('features.jpg');
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.h3-GameChoice2 {
+    color: orange;
+    letter-spacing: 1px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    padding-left:30px;
+    text-transform: uppercase;
+}
+
+.h5-GameChoice2 {
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    padding-left:30px;
+    font-size: 30px;
+    padding-bottom:10px;
+}
+
+/*Game Requirement*/
+.GameRequirement { 
+    background-image: url('requirements.png');
+    height: 130vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.navigation2 {
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+.tab1 {
+    height: 20vh;
+    width:  10vh;
+}
+
+.h1-GameRequirement {
+    color: #fff;
+    letter-spacing: 5px;
+    font-size: 60px;
+    margin-top:  0px;
+    margin-bottom: 115px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+}
+
+.th-GameRequirement {
+    color: orange;
+    letter-spacing: 1px;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.p-GameRequirement {
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.h5-GameRequirement {
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+table, th, td {
+  border: 1px solid rgb(180, 180, 180, 0.2);
+  height: 15vh;
+  width: 40vh;
+}
+
+.table2 {
+  height: 15vh;
+  width: 80vh;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: left;
+  margin-left: 120px;
+  flex-grow: 1;
+  /*margin-top: 0px;*/
+}
+
+/*Top Scores*/
+.TopScores { 
+    background-image: url('ts.jpg');
+    height: 130vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.tab2 {
+    height: 20vh;
+    width:  45vh;
+    margin-top:  370px;
+    padding-bottom: 0px;
+}
+
+.tab3 {
+  border-radius: 25px;
+  background: rgba(40, 40, 40, 1);
+  padding: 20px 70px;
+  padding-top: 1px;
+  width: 400px;
+  height: 180px;
+}
+
+.h1-TopScores {
+    color: #fff;
+    letter-spacing: 5px;
+    font-size: 60px;
+    margin-top:  0px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+}
+
+.h4-TopScores {
+    margin-top: 30px;
+    color: lightgray;
+}
+
+.button-TopScores{
+    background-color:orange;
+    color:black;
+    border:0;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left:75px;
+    padding-right:75px;
+    padding-top:10px;
+    padding-bottom:10px;
+    display:block;
+    border-radius: 4px;
+}
+
+.TopScoresContainer{
+    flex-grow: 1;
+    background-color:yellow;
+}

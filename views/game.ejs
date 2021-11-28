@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROCK PAPER SCISSORS</title>
+
+    <link rel="stylesheet" href="cssgame/game.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   
+  </head>
+  <body>
+
+    <!-- Section header -->
+      <div class="background-img">  
+        <a href="/login" class="button1"> <u> < </u> </a>
+        
+        <img class='logo1-header' src="./cssgame/logo_1.png">
+        <h1 class="h1-main-screen">ROCK PAPER SCISSORS </h1>
+
+        <div class="row" style="padding-top: 162px;">
+
+            <!-- Player Choice -->
+            <div class="col-sm-4" style="display: flex; flex-direction: column; align-items: center;">
+                <h1 class="player1_text">player 1</h1>
+                
+                <div class='player_choices'>
+                  <div class="player_choices" id="p_batu">
+                    <img class='player1_batu kotak'src="./cssgame/batu.png" alt="">
+                  </div>
+
+                  <div class="player_choices" id="p_kertas">
+                    <img class='player1_kertas kotak'src="./cssgame/kertas.png" alt="">
+                  </div>
+                
+                  <div class="player_choices" id="p_gunting">
+                    <img class='player1_gunting kotak'src="./cssgame/gunting.png" alt="">
+                  </div>                   
+                </div>
+            </div>
+
+            <!-- Result  -->
+            <div class="col-sm-4" style="display: flex; flex-direction: column; align-items: center; padding-top: 280px;">
+              <div class="result">
+                    <p class="vs_text">vs</p>
+                    <div class="kotak_hijau" id="kotak_hijau" style="display: none;">
+                    </div>
+              </div>
+            </div>
+
+            <!-- Computer Choice -->
+            <div class="col-sm-4" style="display: flex; flex-direction: column; align-items: center;">
+                <h1 class="com_text">com</h1>
+                
+                <div class='com_choices'>
+                  <div class="com_choices" id="com_batu">
+                    <img class='com_batu kotak'src="./cssgame/batu.png" alt="">
+                  </div>
+
+                  <div class="com_choices" id="com_kertas">
+                    <img class='com_kertas kotak'src="./cssgame/kertas.png" alt="">
+                  </div>
+                
+                  <div class="com_choices" id="com_gunting">
+                    <img class='com_gunting kotak'src="./cssgame/gunting.png" alt="">
+                  </div>                   
+                </div>
+            </div>
+
+            <!-- Refresh -->
+            <div class="col-sm-12" style="display: flex; flex-direction: column; align-items: center; padding-top: 35px;">
+              <a href="/" class="button2" style="align-items: center;"> <u> HOME </u> </a>  
+              <img class='refresh kotak' id="refreshing" src="./cssgame/refresh.png" style="margin-top: 2px;">
+            </div>
+        
+      </div>      
+
+    <!-- script -->
+    <script src="./javascript/script.js" charset="utf-8">
+  </script>
+  </body>
+</html>

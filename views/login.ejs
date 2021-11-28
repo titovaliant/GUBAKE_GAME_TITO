@@ -1,0 +1,58 @@
+<!-- views/login.ejs -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LOGIN ID</title>
+        <style>
+            .contents{
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                border: 1px solid black;
+                border-width:2px;
+                padding : 5px;
+            }
+            .form-element{
+                margin: 10px;
+                align-items: left;
+            }
+        </style>
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body>
+         
+        <div class="contents">
+            <div class="background-imgs">  
+            <h3 align="center">LOGIN [GU BA KE]</h3>
+            
+            <div class="formContent">
+                <form method="POST" action="/login">
+                    <div class="form-element" >
+                        <label for="username" >Username </label>
+                            <br>
+                            <input type="text" name="username" placeholder ="Insert your username" >
+                            <br>
+                    </div>
+                    <div class="form-element">
+                        <label for="password" >Password</ label>
+                            <br>
+                            <input type="password" name="password" placeholder ="Insert your password" >
+                            <br>
+                    </div>
+                    <div class="form-element">
+                        <button type="submit" >Login</button>
+                    </div>
+                </form>
+            </div>
+            <h5 align="center">Belum punya akun?<a href="/register" class="font-medium text-blue-600 hover:text-blue-800">
+                Daftar dulu ya!</a></h5>
+            
+            <h5 align="center" class="mt-6 text-2xl font-bold text-gray-800">Copyright @Tito Valiant Muhammad 2021</h5>
+            <h5 align="center"><a href="/" class="font-medium text-blue-600 hover:text-blue-800">
+                Back to Home Page</a></h5>
+            </div>
+        </div>
+    </body>
+</html>
