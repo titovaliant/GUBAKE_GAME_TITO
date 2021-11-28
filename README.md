@@ -4,8 +4,8 @@ If you wish to run the code locally run the following.
 
 ```
 On Terminal use this command (inside the GUBAKE_GAME_TITO-main folder):
-npm install 
-npm start
+~npm install 
+~npm start
 visit http://localhost:8000
 ```
 1. When you visit localhost:8000 the main page of website will appear.
